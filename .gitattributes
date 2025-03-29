@@ -1,9 +1,0 @@
-# Mark LICENSE as documentation
-LICENSE linguist-documentation
-
-# Explicitly detect JavaScript files
-*.js linguist-detectable=true
-*.jsx linguist-detectable=true
-
-# Ignore documentation in language stats
-*.md linguist-documentation 
