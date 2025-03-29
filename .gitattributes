@@ -1,14 +1,14 @@
-*.js linguist-language=React
-*.jsx linguist-language=React
-*.ts linguist-language=React
-*.tsx linguist-language=React
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
 
 # Documentation
 *.md linguist-documentation
-LICENSE linguist-documentation
+LICENSE linguist-vendored
 
 # Generated files
-android/* linguist-generated
-ios/* linguist-generated
-.expo/* linguist-generated
+android/* linguist-vendored
+ios/* linguist-vendored
+.expo/* linguist-vendored
 node_modules/* linguist-vendored 
